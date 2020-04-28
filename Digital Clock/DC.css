@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("dcbackground.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+	
+
+}
+.main {
+    background-color: #ccc;
+    width: 400px;
+    margin: 100px auto; /* centers main class object using x y axis */
+    height: 175px;
+    position: relative; /* will allow child tags to move with it */
+    padding: 30px; /* will allow child tags to be inside */
+    border-radius: 10px;
+}
+
+.badge { /* clockly heading */
+    background-color: black;
+    color: white;
+    padding: 5px 10px; /*position inside main class */
+    font-family: cursive;
+    font-weight: bold;
+    width: 100px;
+    position: absolute;  /*move it with the main tag now */
+    top: -15px;
+    left: 26vh ;
+    text-align: center;
+}
+
+.clock {
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    height: 100%; /* takes up 100% of parent height minus padding  */
+    padding-top: 20px; /* move text to middle */
+    font-family: cursive;
+    border-radius: 10px;
+}
