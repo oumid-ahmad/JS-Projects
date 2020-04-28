@@ -8,9 +8,7 @@ body {
     background: url("dcbackground.png") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
-	
-
+    overflow: hidden;	
 }
 .main {
     background-color: #ccc;
@@ -28,10 +26,10 @@ body {
     padding: 5px 10px; /*position inside main class */
     font-family: cursive;
     font-weight: bold;
-    width: 100px;
+    width: 120px;
     position: absolute;  /*move it with the main tag now */
     top: -15px;
-    left: 26vh ;
+    left: 36% ;
     text-align: center;
 }
 
